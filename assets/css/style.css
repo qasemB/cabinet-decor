@@ -1,0 +1,159 @@
+:root {
+  --primary_color: #880e4f;
+  --secondary_color: #4a148c;
+  --orange_yellow: #fbc02d;
+  --yellow_light: #ffff00;
+}
+
+@font-face {
+  font-family: BYekan;
+  src: url("../fonts/yekan/BYekan-webfont.woff") format("woff");
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+  font-family: BYekan;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+
+.hoverable_gold_text:hover {
+  text-shadow: 0 0 5px var(--yellow_light);
+}
+
+.d_flex {
+  display: flex;
+}
+
+.d_flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d_flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.m_auto {
+  margin: auto !important;
+}
+
+.m_0 {
+  margin: 0 !important;
+}
+
+.mx_1 {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important ;
+}
+.mx_2 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important ;
+}
+
+.my_1 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.my_2 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.mt_4 {
+  margin-top: 2rem !important;
+}
+.mt_6 {
+  margin-top: 3rem !important;
+}
+
+.p_0 {
+  padding: 0 !important;
+}
+
+.p_1 {
+  padding: 0.5rem !important;
+}
+.p_2 {
+  padding: 1rem !important;
+}
+.py_1 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.py_2 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.px_1 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.px_2 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.w_100 {
+  width: 100% !important;
+}
+
+.h_100 {
+  height: 100% !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.rounded_5 {
+  border-radius: 5px !important;
+}
+
+.position_relative {
+  position: relative !important;
+}
+
+.overflow_hidden {
+  overflow: hidden !important;
+}
+
+.hoverable_text_shadow {
+  transition: all 200ms linear;
+}
+.hoverable_text_shadow:hover {
+  text-shadow: 0 0 5px black;
+}
+
+.scale_0 {
+  transform: scale(0);
+}
+.scale_1 {
+  transform: scale(1);
+}
+
+.justify_text {
+  text-align: justify !important;
+}
+
+@media (max-width: 992px) {
+  .dir_ltr_mobile {
+    direction: ltr !important;
+  }
+
+  .d_mobile_none {
+    display: none !important;
+  }
+}
