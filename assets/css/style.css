@@ -40,6 +40,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.d_flex_between {
+  display: flex;
+  justify-content: space-between;
+}
 
 .m_auto {
   margin: auto !important;
