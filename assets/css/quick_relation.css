@@ -25,16 +25,3 @@
   font-size: 1.2rem;
   padding: 0.5rem 1rem;
 }
-
-.get_user_phone_form {
-  width: 50% !important;
-}
-.get_user_phone_form .input-field > label {
-  color: #26a69a;
-}
-
-@media (max-width: 768px) {
-  .get_user_phone_form {
-    width: 90% !important;
-  }
-}

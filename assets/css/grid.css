@@ -317,6 +317,13 @@ footer {
   overflow: hidden;
 }
 
+.get_user_phone_form {
+  width: 50% !important;
+}
+.get_user_phone_form .input-field > label {
+  color: #26a69a;
+}
+
 @keyframes mohr_in {
   0% {
     transform: rotate(-35deg);
@@ -362,6 +369,10 @@ footer {
     background: url(/assets/images/sidebar_banner1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .get_user_phone_form {
+    width: 90% !important;
   }
 }
 @media (max-width: 992px) {
